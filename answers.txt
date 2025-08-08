@@ -1,0 +1,296 @@
+SQL Database Assignment - Answers and Explanations
+============================================================
+
+TASK ANSWERS:
+============
+
+Task 1: DDL statements to create all tables
+Answer: See file 01_DDL_CreateTables.sql - All tables created with proper constraints, data types, and relationships.
+
+Task 2: Alter Borrowers table to enforce BorrowerName NOT NULL
+Answer: BorrowerName was already defined as NOT NULL in the CREATE statement. If modification was needed: ALTER TABLE Borrowers ALTER COLUMN BorrowerName NVARCHAR(100) NOT NULL;
+
+Task 3: Alter Books table to enforce uniqueness on ISBN
+Answer: ALTER TABLE Books ADD CONSTRAINT UQ_Books_ISBN UNIQUE (ISBN);
+
+Task 4: Add CHECK constraint for Price > 0
+Answer: ALTER TABLE Books ADD CONSTRAINT CHK_Books_Price CHECK (Price > 0);
+
+Task 5-9: Insert sample data
+Answer: See file 02_DML_InsertData.sql - Sample records inserted into all tables.
+
+Task 10: Books with price > 20
+Answer: SELECT BookID, Title, Price, Genre FROM Books WHERE Price > 20;
+
+Task 11: Books currently on loan with borrower names
+Answer: SELECT b.Title, br.BorrowerName, l.LoanDate FROM Books b INNER JOIN Loans l ON b.BookID = l.BookID INNER JOIN Borrowers br ON l.BorrowerID = br.BorrowerID WHERE l.ReturnDate IS NULL;
+
+Task 12: Authors with more than 2 books
+Answer: SELECT a.AuthorName, COUNT(b.BookID) as BookCount FROM Authors a INNER JOIN Books b ON a.AuthorID = b.AuthorID GROUP BY a.AuthorID, a.AuthorName HAVING COUNT(b.BookID) > 2;
+
+Task 13: All books with current borrower (LEFT JOIN)
+Answer: SELECT b.Title, br.BorrowerName, l.LoanDate FROM Books b LEFT JOIN Loans l ON b.BookID = l.BookID AND l.ReturnDate IS NULL LEFT JOIN Borrowers br ON l.BorrowerID = br.BorrowerID;
+
+Task 14: All publishers with their books (LEFT JOIN)
+Answer: SELECT p.PublisherName, b.Title, b.PublicationDate FROM Publishers p LEFT JOIN Books b ON p.PublisherID = b.PublisherID ORDER BY p.PublisherName, b.Title;
+
+Task 15: All unique genres
+Answer: SELECT DISTINCT Genre FROM Books WHERE Genre IS NOT NULL ORDER BY Genre;
+
+Task 16: Books starting with "The" or containing "SQL"
+Answer: SELECT BookID, Title, AuthorID, Price FROM Books WHERE Title LIKE 'The%' OR Title LIKE '%SQL%';
+
+Task 17: Five most recent loans
+Answer: SELECT TOP 5 l.LoanID, b.Title, br.BorrowerName, l.LoanDate, l.ReturnDate FROM Loans l INNER JOIN Books b ON l.BookID = b.BookID INNER JOIN Borrowers br ON l.BorrowerID = br.BorrowerID ORDER BY l.LoanDate DESC;
+
+Task 18: Update ReturnDate for specific loan
+Answer: UPDATE Loans SET ReturnDate = GETDATE() WHERE LoanID = 2;
+
+Task 19: Increase price by 10% for books before 2010
+Answer: UPDATE Books SET Price = Price * 1.10 WHERE PublicationDate < '2010-01-01';
+
+Task 20: Delete borrowers with no loans
+Answer: DELETE FROM Borrowers WHERE BorrowerID NOT IN (SELECT DISTINCT BorrowerID FROM Loans WHERE BorrowerID IS NOT NULL);
+
+Task 21: Delete books priced less than 5
+Answer: DELETE FROM Loans WHERE BookID IN (SELECT BookID FROM Books WHERE Price < 5); DELETE FROM Books WHERE Price < 5;
+
+Task 22: Remove Address column from Publishers
+Answer: ALTER TABLE Publishers DROP COLUMN Address;
+
+Task 23: Drop Loans table
+Answer: DROP TABLE Loans;
+
+Task 24: Insert loan without LoanDate (uses default)
+Answer: INSERT INTO Loans (BookID, BorrowerID, ReturnDate) VALUES (4, 2, NULL);
+
+Task 25: Create BookCategories with composite primary key
+Answer: CREATE TABLE BookCategories (BookID INT NOT NULL, Category NVARCHAR(100) NOT NULL, CONSTRAINT PK_BookCategories PRIMARY KEY (BookID, Category), CONSTRAINT FK_BookCategories_Books FOREIGN KEY (BookID) REFERENCES Books(BookID));
+
+Task 26: Count loans per borrower
+Answer: SELECT br.BorrowerName, COUNT(l.LoanID) as LoanCount FROM Borrowers br LEFT JOIN Loans l ON br.BorrowerID = l.BorrowerID GROUP BY br.BorrowerID, br.BorrowerName ORDER BY LoanCount DESC;
+
+Task 27: Update NULL genres to "Unknown"
+Answer: UPDATE Books SET Genre = 'Unknown' WHERE Genre IS NULL;
+
+Task 28: Delete loans older than one year
+Answer: DELETE FROM Loans WHERE LoanDate < DATEADD(YEAR, -1, GETDATE());
+
+Task 29: Normalization of LoanInfo table
+Answer: See detailed normalization explanation below.
+
+
+THEORETICAL CONCEPTS:
+====================
+
+SELF JOIN:
+----------
+A self join is when a table is joined with itself using table aliases. It's used when you need to compare rows within the same table.
+
+How it differs from other joins:
+- Regular joins combine data from different tables
+- Self joins combine data from the same table using different aliases
+- Treats the same table as if it were two separate tables
+
+How it works internally:
+- Database engine creates two virtual copies of the same table
+- Uses aliases to distinguish between the copies
+- Applies join conditions between the aliases
+- Returns combined results based on the join condition
+
+Example:
+SELECT e1.EmployeeName as Employee, e2.EmployeeName as Manager
+FROM Employees e1
+INNER JOIN Employees e2 ON e1.ManagerID = e2.EmployeeID;
+
+Use cases:
+- Finding employee-manager relationships
+- Comparing sales between different time periods in the same table
+- Finding duplicate records
+- Hierarchical data navigation
+
+
+SUPER KEY:
+----------
+A super key is a set of one or more attributes that can uniquely identify each row in a table.
+
+Differences from other keys:
+- Candidate Key: Minimal super key (no redundant attributes)
+- Primary Key: Chosen candidate key for the table
+- Foreign Key: References primary key of another table
+- Composite Key: Key made up of multiple attributes
+
+Characteristics:
+- May contain extra attributes beyond the minimum required
+- Every table has at least one super key
+- Can have multiple super keys in a table
+- Primary key is always a super key, but not vice versa
+
+Example:
+In a Student table with (StudentID, SSN, FirstName, LastName, Email):
+- {StudentID} - Candidate key (minimal super key)
+- {SSN} - Candidate key
+- {StudentID, FirstName} - Super key (has extra attribute)
+- {StudentID, FirstName, LastName} - Super key (has extra attributes)
+
+
+INDEXING:
+---------
+Indexing is a database optimization technique that creates additional data structures to speed up data retrieval.
+
+Why it's used:
+- Dramatically improves query performance
+- Reduces disk I/O operations
+- Speeds up WHERE, ORDER BY, and JOIN operations
+- Essential for large databases
+
+How it works:
+- Creates a separate structure pointing to actual data locations
+- Uses B-tree or other efficient data structures
+- Maintains sorted order for quick searching
+- Database engine uses index to locate data without full table scan
+
+Clustered vs Non-Clustered:
+
+CLUSTERED INDEX:
+- Physically reorders table data
+- Only one per table (usually on primary key)
+- Actual data is stored in index order
+- Faster for range queries
+- INSERT/UPDATE can be slower due to reordering
+
+NON-CLUSTERED INDEX:
+- Separate structure pointing to data rows
+- Multiple allowed per table
+- Doesn't change physical data order
+- Additional lookup required to get actual data
+- Better for specific value lookups
+
+Trade-offs:
+- Indexes speed up SELECT but slow down INSERT/UPDATE/DELETE
+- Require additional storage space
+- Need maintenance as data changes
+
+
+INTEGER PRIMARY KEYS vs NATURAL KEYS:
+------------------------------------
+Using integer primary keys instead of natural keys (like course names) for several important reasons:
+
+Performance:
+- Integers are faster to compare and join
+- Smaller storage footprint
+- Better indexing performance
+- Fixed-width storage vs variable-width strings
+
+Stability:
+- Course names might change over time
+- Natural keys can become outdated
+- Integer IDs remain constant
+- Avoids cascading updates across related tables
+
+Uniqueness:
+- Guarantees uniqueness without business logic
+- No risk of duplicate natural values
+- System-generated values eliminate human error
+- Auto-increment ensures no conflicts
+
+Flexibility:
+- Business rules for natural keys might change
+- Allows for easier data migration
+- Simplifies relationships between tables
+- International considerations (character sets, collation)
+
+Example:
+Instead of using course name "Advanced Database Design" as a foreign key:
+- Course name might change to "Database Design & Architecture"
+- Would require updating all related tables
+- String comparisons are slower
+- Potential for inconsistent spelling/formatting
+
+With integer CourseID:
+- CourseID remains 101 regardless of name changes
+- Fast integer comparisons
+- Consistent across all relationships
+- Easy to maintain referential integrity
+
+
+BCNF (BOYCE-CODD NORMAL FORM):
+-----------------------------
+BCNF is a stricter version of 3NF that eliminates all dependency anomalies.
+
+Definition:
+A table is in BCNF if for every functional dependency X → Y, X must be a superkey.
+
+Difference from 3NF:
+- 3NF allows transitive dependencies in some cases
+- BCNF eliminates ALL transitive dependencies
+- BCNF is more restrictive than 3NF
+- Some tables in 3NF may not be in BCNF
+
+When BCNF is needed:
+- When 3NF still has update anomalies
+- Tables with multiple candidate keys
+- Overlapping candidate keys
+
+Example violation:
+Table: CourseInstructor (CourseID, InstructorID, InstructorName, Department)
+- Functional dependency: InstructorID → InstructorName, Department
+- InstructorID is not a superkey of the table
+- Causes update anomalies
+
+BCNF solution:
+Split into two tables:
+1. CourseInstructor (CourseID, InstructorID)
+2. Instructor (InstructorID, InstructorName, Department)
+
+Benefits of BCNF:
+- Eliminates all update anomalies
+- Reduces data redundancy
+- Ensures data integrity
+- Prevents inconsistent updates
+
+Trade-offs:
+- May require more joins for queries
+- Can impact query performance
+- More complex database design
+- Sometimes impractical for real-world scenarios
+
+
+TASK 29 - NORMALIZATION ANALYSIS:
+================================
+
+Given table: LoanInfo(LoanID, BookTitle, BorrowerName, BorrowerAddress, LoanDate)
+
+1NF VIOLATIONS:
+- None apparent if each attribute contains atomic values
+- Assuming proper atomic values, table is in 1NF
+
+2NF VIOLATIONS:
+- BookTitle depends only on BookID (if it existed), not the full key
+- BorrowerName depends only on BorrowerID (if it existed), not the full key
+- BorrowerAddress depends only on BorrowerID (if it existed), not the full key
+- Only LoanDate properly depends on the full LoanID
+
+3NF VIOLATIONS:
+- BorrowerAddress depends on BorrowerName (transitive dependency)
+- BorrowerName → BorrowerAddress, but BorrowerName is not a candidate key
+
+BCNF DECOMPOSITION:
+To satisfy 3NF and BCNF, decompose into:
+
+1. Loans (LoanID, BookID, BorrowerID, LoanDate)
+   - Primary Key: LoanID
+   - Foreign Keys: BookID → Books(BookID), BorrowerID → Borrowers(BorrowerID)
+
+2. Books (BookID, BookTitle)
+   - Primary Key: BookID
+
+3. Borrowers (BorrowerID, BorrowerName, BorrowerAddress)
+   - Primary Key: BorrowerID
+
+This decomposition:
+- Eliminates all partial dependencies (2NF)
+- Eliminates all transitive dependencies (3NF)
+- Ensures every determinant is a candidate key (BCNF)
+- Maintains lossless join property
+- Preserves all functional dependencies
