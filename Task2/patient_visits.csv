@@ -1,0 +1,345 @@
+1,Daniel Moore,2025-04-21,Emergency,Regular checkup,Dr. Davis,98,1633.33
+2,Jennifer Lee,2025-05-16,Follow-up,Annual physical exam,Dr. Taylor,116,580.00
+3,Daniel Rodriguez,2025-05-04,Emergency,Regular checkup,Dr. Williams,49,816.67
+4,Nancy Garcia,2025-02-06,Follow-up,Medical evaluation,Dr. Brown,43,215.00
+5,Joseph Sanchez,2025-03-06,Emergency,Follow-up appointment,Dr. Anderson,50,833.33
+6,Thomas Thomas,2025-01-09,Routine Check-up,Preventive care visit,Dr. Anderson,65,433.33
+7,Patricia Perez,2025-02-26,Consultation,Health screening,Dr. Taylor,81,675.00
+8,Susan Garcia,2025-06-15,Follow-up,Medical evaluation,Dr. Moore,108,540.00
+9,Elizabeth Jackson,2024-10-25,Emergency,Preventive care visit,Dr. Johnson,39,650.00
+10,Robert Garcia,2025-02-23,Emergency,Health screening,,23,383.33
+11,Jennifer Garcia,2024-11-10,Routine Check-up,Follow-up appointment,Dr. Smith,63,420.00
+12,Patricia Moore,2024-11-25,Emergency,Medical evaluation,Dr. Johnson,23,383.33
+13,James Rodriguez,2025-01-21,Consultation,Urgent medical attention needed,Dr. Wilson,34,283.33
+14,James Perez,2024-11-14,Emergency,Medical evaluation,Dr. Anderson,99,1650.00
+15,Thomas Harris,2025-06-22,Emergency,Consultation for symptoms,Dr. Wilson,34,566.67
+16,Mark Jones,2024-10-09,Routine Check-up,Consultation for symptoms,Dr. Davis,61,406.67
+17,Linda Davis,2024-09-18,Emergency,Annual physical exam,Dr. Anderson,53,883.33
+18,Joseph Williams,2024-10-03,Emergency,Follow-up appointment,,17,283.33
+19,Joseph Ramirez,2024-12-08,Emergency,Routine examination,Dr. Smith,120,2000.00
+20,Emma Gonzalez,2024-08-03,Follow-up,Preventive care visit,,81,405.00
+21,David Taylor,2024-10-10,Follow-up,Preventive care visit,,115,575.00
+22,Jessica Miller,2024-12-01,Emergency,Annual physical exam,,71,1183.33
+23,Elizabeth Lopez,2024-11-16,Follow-up,Medical evaluation,Dr. Johnson,64,320.00
+24,Emma Miller,2025-03-20,Consultation,Annual physical exam,Dr. Smith,41,341.67
+25,Daniel Lopez,2024-08-22,Routine Check-up,Health screening,,99,660.00
+26,Emma Sanchez,2024-08-11,Emergency,Treatment follow-up,Dr. Miller,112,1866.67
+27,James Miller,2024-10-01,Follow-up,Medical evaluation,Dr. Johnson,25,125.00
+28,David Robinson,2024-11-20,Follow-up,Annual physical exam,Dr. Taylor,18,90.00
+29,Nancy Rodriguez,2024-11-24,Routine Check-up,Health screening,Dr. Smith,113,753.33
+30,Linda Davis,2024-09-08,Routine Check-up,Urgent medical attention needed,Dr. Moore,106,706.67
+31,Barbara Miller,2025-04-05,Consultation,Urgent medical attention needed,Dr. Taylor,15,125.00
+32,Jane Martin,2025-06-17,Follow-up,Consultation for symptoms,Dr. Taylor,103,515.00
+33,Maria Moore,2025-03-23,Follow-up,Routine examination,,110,550.00
+34,Jennifer Anderson,2024-09-03,Emergency,Routine examination,Dr. Taylor,41,683.33
+35,James Davis,2025-06-29,Routine Check-up,Regular checkup,Dr. Smith,47,313.33
+36,William Wilson,2024-08-27,Follow-up,Preventive care visit,,18,90.00
+37,Susan Sanchez,2024-09-03,Consultation,Urgent medical attention needed,,66,550.00
+38,Charles Robinson,2024-11-21,Consultation,Health screening,Dr. Wilson,54,450.00
+39,Thomas Rodriguez,2025-04-10,Follow-up,Medical evaluation,,62,310.00
+40,Daniel Johnson,2025-03-17,Consultation,Urgent medical attention needed,,103,858.33
+41,Anthony Taylor,2025-02-14,Follow-up,Regular checkup,Dr. Miller,27,135.00
+42,Robert Taylor,2024-10-02,Consultation,Health screening,Dr. Moore,41,341.67
+43,Michael White,2024-12-29,Consultation,Health screening,,70,583.33
+44,William Garcia,2024-11-15,Routine Check-up,Annual physical exam,Dr. Wilson,40,266.67
+45,James Anderson,2025-06-20,Consultation,Annual physical exam,Dr. Williams,107,891.67
+46,Charles Wilson,2025-01-31,Follow-up,Health screening,Dr. Johnson,40,200.00
+47,Robert Thompson,2024-10-14,Routine Check-up,Regular checkup,Dr. Brown,106,706.67
+48,Jennifer Davis,2025-07-30,Emergency,Follow-up appointment,Dr. Johnson,47,783.33
+49,Richard Moore,2025-06-30,Emergency,Treatment follow-up,Dr. Miller,114,1900.00
+50,Matthew Perez,2025-05-30,Consultation,Follow-up appointment,Dr. Johnson,68,566.67
+51,Sarah Clark,2025-04-01,Emergency,Medical evaluation,Dr. Wilson,69,1150.00
+52,David Smith,2024-10-10,Consultation,Medical evaluation,Dr. Moore,113,941.67
+53,Robert Ramirez,2025-07-06,Follow-up,Preventive care visit,,48,240.00
+54,Jane Jones,2024-08-14,Routine Check-up,Regular checkup,Dr. Wilson,59,393.33
+55,Jane Martinez,2024-11-24,Consultation,Routine examination,Dr. Moore,60,500.00
+56,Charles Perez,2024-09-15,Emergency,Consultation for symptoms,Dr. Moore,68,1133.33
+57,Christopher Robinson,2025-03-03,Emergency,Regular checkup,Dr. Brown,82,1366.67
+58,Linda Robinson,2025-02-28,Follow-up,Health screening,Dr. Anderson,30,150.00
+59,Thomas Hernandez,2025-07-23,Consultation,Treatment follow-up,Dr. Wilson,56,466.67
+60,Lisa Lewis,2024-11-02,Emergency,Routine examination,Dr. Brown,77,1283.33
+61,Matthew Robinson,2025-01-07,Consultation,Consultation for symptoms,,56,466.67
+62,Linda Miller,2025-02-07,Emergency,Consultation for symptoms,Dr. Smith,77,1283.33
+63,Jane White,2025-01-27,Routine Check-up,Follow-up appointment,Dr. Johnson,89,593.33
+64,David Robinson,2024-10-29,Consultation,Annual physical exam,Dr. Davis,105,875.00
+65,Jane Perez,2024-08-26,Emergency,Routine examination,Dr. Wilson,120,2000.00
+66,William Sanchez,2025-07-16,Consultation,Regular checkup,Dr. Brown,53,441.67
+67,Michael Martin,2024-11-16,Routine Check-up,Treatment follow-up,Dr. Johnson,101,673.33
+68,Betty Miller,2025-07-12,Consultation,Medical evaluation,Dr. Davis,114,950.00
+69,David Williams,2025-03-10,Routine Check-up,Annual physical exam,,85,566.67
+70,David Hernandez,2024-08-03,Consultation,Health screening,Dr. Brown,94,783.33
+71,Joseph Anderson,2025-01-25,Follow-up,Follow-up appointment,Dr. Davis,64,320.00
+72,William Sanchez,2025-01-05,Follow-up,Consultation for symptoms,Dr. Moore,104,520.00
+73,Christopher Williams,2025-03-13,Consultation,Urgent medical attention needed,,80,666.67
+74,Linda Clark,2024-12-03,Emergency,Follow-up appointment,Dr. Miller,24,400.00
+75,Jennifer Brown,2024-12-13,Emergency,Regular checkup,Dr. Moore,102,1700.00
+76,Christopher Lopez,2024-12-22,Routine Check-up,Treatment follow-up,Dr. Anderson,61,406.67
+77,Christopher Williams,2024-11-16,Routine Check-up,Urgent medical attention needed,Dr. Smith,27,180.00
+78,Nancy Harris,2025-01-17,Follow-up,Preventive care visit,Dr. Moore,50,250.00
+79,Jane Robinson,2025-03-18,Follow-up,Follow-up appointment,,98,490.00
+80,Mark Rodriguez,2024-10-21,Emergency,Urgent medical attention needed,,101,1683.33
+81,Richard Ramirez,2024-08-13,Routine Check-up,Treatment follow-up,Dr. Anderson,89,593.33
+82,Lisa Brown,2024-11-03,Consultation,Preventive care visit,Dr. Smith,74,616.67
+83,John Williams,2025-04-23,Consultation,Preventive care visit,Dr. Miller,89,741.67
+84,Christopher Ramirez,2025-01-18,Routine Check-up,Medical evaluation,,20,133.33
+85,Linda Wilson,2025-07-20,Routine Check-up,Regular checkup,Dr. Davis,30,200.00
+86,Lisa Williams,2024-11-25,Emergency,Treatment follow-up,Dr. Johnson,38,633.33
+87,Nancy Thomas,2025-07-21,Emergency,Annual physical exam,,41,683.33
+88,Jessica Hernandez,2024-10-21,Routine Check-up,Consultation for symptoms,Dr. Anderson,17,113.33
+89,Barbara Jones,2025-02-21,Emergency,Preventive care visit,Dr. Moore,39,650.00
+90,Mark Miller,2024-12-18,Routine Check-up,Routine examination,Dr. Taylor,15,100.00
+91,David Robinson,2024-11-06,Consultation,Consultation for symptoms,Dr. Wilson,50,416.67
+92,Linda Anderson,2025-07-10,Follow-up,Annual physical exam,Dr. Anderson,68,340.00
+93,Betty Thomas,2024-10-06,Routine Check-up,Health screening,Dr. Smith,48,320.00
+94,Matthew Wilson,2024-08-27,Emergency,Treatment follow-up,Dr. Miller,88,1466.67
+95,Elizabeth Taylor,2025-07-29,Follow-up,Preventive care visit,Dr. Davis,75,375.00
+96,Sarah Rodriguez,2025-02-09,Consultation,Regular checkup,Dr. Brown,63,525.00
+97,Joseph Lewis,2025-04-15,Routine Check-up,Consultation for symptoms,Dr. Anderson,112,746.67
+98,Thomas White,2025-01-05,Emergency,Routine examination,Dr. Johnson,47,783.33
+99,John Thompson,2024-11-02,Routine Check-up,Preventive care visit,Dr. Moore,102,680.00
+100,Patricia Thomas,2024-08-14,Routine Check-up,Medical evaluation,Dr. Johnson,17,113.33
+101,Sarah Perez,2025-04-18,Emergency,Routine examination,Dr. Anderson,90,1500.00
+102,Charles Robinson,2025-07-25,Consultation,Regular checkup,Dr. Williams,71,591.67
+103,Christopher Lewis,2024-10-01,Consultation,Treatment follow-up,Dr. Taylor,111,925.00
+104,Anthony Rodriguez,2025-03-01,Consultation,Preventive care visit,Dr. Anderson,110,916.67
+105,Thomas Sanchez,2024-09-09,Routine Check-up,Urgent medical attention needed,Dr. Davis,78,520.00
+106,Nancy Smith,2025-06-16,Follow-up,Consultation for symptoms,Dr. Moore,101,505.00
+107,Betty Thomas,2025-01-11,Emergency,Medical evaluation,Dr. Taylor,41,683.33
+108,Joseph Wilson,2025-06-29,Follow-up,Health screening,Dr. Taylor,59,295.00
+109,Robert Davis,2024-09-08,Consultation,Annual physical exam,Dr. Miller,20,166.67
+110,Thomas Miller,2024-08-03,Routine Check-up,Medical evaluation,Dr. Smith,107,713.33
+111,David Lee,2024-08-05,Emergency,Consultation for symptoms,Dr. Johnson,59,983.33
+112,William Smith,2025-06-30,Follow-up,Urgent medical attention needed,Dr. Moore,61,305.00
+113,Christopher Robinson,2025-06-06,Consultation,Medical evaluation,Dr. Johnson,66,550.00
+114,Thomas Perez,2025-05-24,Emergency,Routine examination,Dr. Taylor,98,1633.33
+115,Thomas Brown,2024-10-07,Consultation,Preventive care visit,Dr. Johnson,102,850.00
+116,Maria Jackson,2025-05-05,Routine Check-up,Urgent medical attention needed,Dr. Brown,84,560.00
+117,Elizabeth Martin,2024-11-06,Emergency,Health screening,Dr. Johnson,103,1716.67
+118,Barbara Lopez,2025-02-20,Routine Check-up,Urgent medical attention needed,Dr. Smith,82,546.67
+119,Elizabeth Martinez,2024-09-24,Consultation,Consultation for symptoms,,19,158.33
+120,Anthony Martin,2024-08-17,Emergency,Urgent medical attention needed,Dr. Taylor,56,933.33
+121,Robert Ramirez,2025-05-19,Consultation,Follow-up appointment,Dr. Moore,29,241.67
+122,Christopher Lewis,2025-03-12,Routine Check-up,Urgent medical attention needed,Dr. Miller,24,160.00
+123,William Thompson,2025-05-11,Routine Check-up,Annual physical exam,Dr. Brown,103,686.67
+124,Lisa Ramirez,2025-03-18,Emergency,Follow-up appointment,,22,366.67
+125,Linda Davis,2025-06-27,Emergency,Consultation for symptoms,,91,1516.67
+126,Sarah Anderson,2024-08-13,Emergency,Consultation for symptoms,Dr. Smith,87,1450.00
+127,David Smith,2025-03-15,Routine Check-up,Medical evaluation,,33,220.00
+128,Barbara Wilson,2024-11-16,Follow-up,Treatment follow-up,Dr. Anderson,38,190.00
+129,Charles Rodriguez,2024-08-23,Routine Check-up,Preventive care visit,Dr. Taylor,47,313.33
+130,Joseph Miller,2025-01-05,Follow-up,Preventive care visit,,94,470.00
+131,Anthony Hernandez,2024-12-16,Routine Check-up,Annual physical exam,Dr. Taylor,106,706.67
+132,Maria Lopez,2025-06-02,Consultation,Urgent medical attention needed,Dr. Miller,67,558.33
+133,Joseph Martin,2024-12-10,Follow-up,Consultation for symptoms,,104,520.00
+134,Daniel Miller,2024-11-26,Follow-up,Urgent medical attention needed,Dr. Johnson,98,490.00
+135,Thomas Martin,2024-11-18,Follow-up,Treatment follow-up,,110,550.00
+136,Joseph Brown,2025-01-02,Follow-up,Preventive care visit,Dr. Williams,107,535.00
+137,Thomas Harris,2025-02-23,Consultation,Regular checkup,,50,416.67
+138,James Thomas,2025-04-26,Emergency,Medical evaluation,,75,1250.00
+139,Betty Sanchez,2024-11-23,Emergency,Regular checkup,Dr. Miller,40,666.67
+140,Karen Lewis,2025-04-22,Follow-up,Consultation for symptoms,Dr. Brown,107,535.00
+141,James Johnson,2024-11-16,Routine Check-up,Routine examination,Dr. Smith,84,560.00
+142,Elizabeth Jones,2024-12-22,Follow-up,Urgent medical attention needed,,117,585.00
+143,Jessica Wilson,2025-01-24,Follow-up,Treatment follow-up,Dr. Taylor,110,550.00
+144,Susan Smith,2024-09-15,Emergency,Urgent medical attention needed,Dr. Miller,62,1033.33
+145,David Martin,2025-04-09,Consultation,Annual physical exam,,36,300.00
+146,Jennifer Wilson,2025-05-13,Follow-up,Follow-up appointment,Dr. Johnson,49,245.00
+147,David Martin,2024-12-23,Emergency,Treatment follow-up,Dr. Johnson,89,1483.33
+148,Richard Brown,2025-07-03,Routine Check-up,Follow-up appointment,Dr. Brown,68,453.33
+149,Jane Anderson,2025-05-23,Routine Check-up,Medical evaluation,Dr. Davis,109,726.67
+150,Joseph Jones,2025-02-06,Routine Check-up,Preventive care visit,Dr. Taylor,46,306.67
+151,Nancy Thompson,2025-03-03,Consultation,Follow-up appointment,Dr. Johnson,43,358.33
+152,Thomas White,2025-04-03,Consultation,Health screening,Dr. Johnson,87,725.00
+153,Jennifer Smith,2025-04-04,Consultation,Routine examination,Dr. Johnson,49,408.33
+154,Michael Lee,2025-05-17,Consultation,Health screening,Dr. Smith,67,558.33
+155,Lisa Perez,2025-07-28,Emergency,Medical evaluation,Dr. Smith,59,983.33
+156,Susan Thomas,2024-09-11,Emergency,Urgent medical attention needed,Dr. Brown,79,1316.67
+157,Jane Taylor,2025-05-25,Follow-up,Health screening,Dr. Anderson,59,295.00
+158,Robert Brown,2024-11-02,Emergency,Follow-up appointment,,82,1366.67
+159,James Brown,2024-12-28,Emergency,Follow-up appointment,Dr. Taylor,20,333.33
+160,Richard Thompson,2025-01-24,Follow-up,Preventive care visit,,108,540.00
+161,Patricia Ramirez,2024-09-22,Follow-up,Medical evaluation,Dr. Taylor,107,535.00
+162,Susan Johnson,2025-07-20,Emergency,Urgent medical attention needed,Dr. Moore,31,516.67
+163,Barbara Jackson,2025-07-29,Follow-up,Medical evaluation,Dr. Moore,38,190.00
+164,Christopher Gonzalez,2025-01-11,Follow-up,Medical evaluation,,104,520.00
+165,James Thompson,2025-05-13,Routine Check-up,Urgent medical attention needed,Dr. Davis,16,106.67
+166,Daniel Williams,2024-12-29,Consultation,Annual physical exam,,116,966.67
+167,Barbara Wilson,2024-10-19,Emergency,Regular checkup,Dr. Brown,86,1433.33
+168,Karen Taylor,2025-04-22,Follow-up,Health screening,Dr. Wilson,38,190.00
+169,David Miller,2025-01-18,Routine Check-up,Medical evaluation,Dr. Moore,34,226.67
+170,Daniel Miller,2025-02-02,Consultation,Routine examination,,100,833.33
+171,Emma Lee,2025-03-27,Routine Check-up,Regular checkup,Dr. Moore,38,253.33
+172,Christopher Sanchez,2024-11-13,Consultation,Annual physical exam,Dr. Moore,93,775.00
+173,Jane Thomas,2025-07-01,Follow-up,Medical evaluation,,61,305.00
+174,Sarah Taylor,2024-11-20,Emergency,Follow-up appointment,Dr. Taylor,109,1816.67
+175,Linda Taylor,2024-12-17,Routine Check-up,Annual physical exam,Dr. Davis,53,353.33
+176,Nancy Jones,2025-04-09,Consultation,Regular checkup,Dr. Williams,105,875.00
+177,Linda White,2025-06-12,Consultation,Regular checkup,Dr. Taylor,98,816.67
+178,Christopher Ramirez,2025-02-11,Routine Check-up,Routine examination,Dr. Smith,86,573.33
+179,Elizabeth Thompson,2025-02-10,Emergency,Follow-up appointment,Dr. Johnson,28,466.67
+180,Anthony Sanchez,2025-03-30,Follow-up,Routine examination,Dr. Davis,116,580.00
+181,Jane Sanchez,2024-11-09,Routine Check-up,Consultation for symptoms,,110,733.33
+182,Jessica Moore,2025-05-26,Routine Check-up,Treatment follow-up,Dr. Moore,87,580.00
+183,Joseph Gonzalez,2024-08-28,Follow-up,Urgent medical attention needed,Dr. Wilson,96,480.00
+184,Matthew Smith,2025-01-23,Routine Check-up,Follow-up appointment,Dr. Davis,119,793.33
+185,Jane Anderson,2025-06-05,Follow-up,Regular checkup,Dr. Johnson,21,105.00
+186,Charles White,2025-03-30,Consultation,Preventive care visit,Dr. Brown,71,591.67
+187,Joseph Davis,2025-07-03,Emergency,Preventive care visit,,17,283.33
+188,James Williams,2024-08-16,Emergency,Medical evaluation,,20,333.33
+189,Anthony White,2025-06-09,Consultation,Treatment follow-up,Dr. Taylor,102,850.00
+190,John Garcia,2025-06-06,Consultation,Follow-up appointment,,50,416.67
+191,Karen Lopez,2025-07-30,Emergency,Medical evaluation,Dr. Anderson,96,1600.00
+192,Jessica Sanchez,2025-06-05,Routine Check-up,Annual physical exam,Dr. Davis,41,273.33
+193,Daniel Johnson,2025-04-07,Emergency,Preventive care visit,Dr. Davis,63,1050.00
+194,Maria Taylor,2025-07-26,Follow-up,Consultation for symptoms,Dr. Williams,28,140.00
+195,David Taylor,2025-01-04,Consultation,Health screening,,61,508.33
+196,Susan Gonzalez,2025-03-21,Routine Check-up,Medical evaluation,Dr. Johnson,72,480.00
+197,Sarah Johnson,2024-08-19,Routine Check-up,Regular checkup,,37,246.67
+198,Jennifer Harris,2024-09-23,Consultation,Medical evaluation,Dr. Anderson,84,700.00
+199,James Smith,2024-09-06,Routine Check-up,Regular checkup,,95,633.33
+200,Emma Miller,2024-12-14,Emergency,Consultation for symptoms,Dr. Johnson,50,833.33
+201,James Williams,2024-09-07,Follow-up,Treatment follow-up,Dr. Wilson,109,545.00
+202,Richard Thomas,2025-02-05,Routine Check-up,Medical evaluation,,97,646.67
+203,Elizabeth Perez,2025-06-16,Routine Check-up,Regular checkup,,28,186.67
+204,Thomas Martin,2025-04-12,Consultation,Urgent medical attention needed,Dr. Miller,112,933.33
+205,William Brown,2024-09-08,Consultation,Routine examination,Dr. Davis,103,858.33
+206,Karen Perez,2024-08-13,Routine Check-up,Medical evaluation,Dr. Williams,58,386.67
+207,Anthony Jones,2024-09-15,Follow-up,Follow-up appointment,Dr. Smith,33,165.00
+208,Karen Harris,2025-03-30,Consultation,Treatment follow-up,,39,325.00
+209,Daniel White,2024-10-22,Emergency,Annual physical exam,Dr. Anderson,29,483.33
+210,Mark Miller,2025-05-08,Consultation,Follow-up appointment,Dr. Moore,91,758.33
+211,John Ramirez,2024-10-21,Emergency,Regular checkup,Dr. Miller,110,1833.33
+212,Elizabeth Gonzalez,2025-07-18,Consultation,Urgent medical attention needed,,86,716.67
+213,Anthony Lee,2024-10-30,Follow-up,Urgent medical attention needed,Dr. Johnson,97,485.00
+214,Thomas Robinson,2025-07-11,Routine Check-up,Treatment follow-up,Dr. Davis,90,600.00
+215,Patricia Smith,2024-10-30,Follow-up,Regular checkup,,41,205.00
+216,David Harris,2025-07-19,Routine Check-up,Consultation for symptoms,,94,626.67
+217,William Anderson,2025-03-03,Emergency,Follow-up appointment,Dr. Davis,67,1116.67
+218,Mark Lee,2025-06-18,Routine Check-up,Annual physical exam,Dr. Brown,110,733.33
+219,Sarah Smith,2025-07-17,Follow-up,Treatment follow-up,Dr. Johnson,72,360.00
+220,Betty Martin,2024-09-14,Routine Check-up,Regular checkup,Dr. Anderson,50,333.33
+221,Barbara Taylor,2025-07-24,Follow-up,Regular checkup,Dr. Taylor,54,270.00
+222,Anthony Thompson,2024-09-23,Emergency,Routine examination,Dr. Williams,26,433.33
+223,Emma Lee,2024-08-20,Consultation,Preventive care visit,,91,758.33
+224,Anthony Harris,2025-05-13,Routine Check-up,Preventive care visit,Dr. Taylor,81,540.00
+225,Daniel Miller,2024-09-20,Emergency,Consultation for symptoms,Dr. Wilson,21,350.00
+226,Joseph Anderson,2025-06-09,Routine Check-up,Health screening,Dr. Johnson,68,453.33
+227,Mark Davis,2025-04-15,Routine Check-up,Regular checkup,Dr. Williams,93,620.00
+228,James Thompson,2024-09-15,Consultation,Health screening,Dr. Davis,67,558.33
+229,Barbara Miller,2025-03-19,Consultation,Medical evaluation,Dr. Williams,50,416.67
+230,Charles Gonzalez,2025-04-03,Routine Check-up,Medical evaluation,Dr. Wilson,24,160.00
+231,Barbara Thomas,2025-07-17,Follow-up,Treatment follow-up,Dr. Williams,38,190.00
+232,James White,2025-03-09,Consultation,Treatment follow-up,,25,208.33
+233,Jessica Smith,2024-11-10,Follow-up,Health screening,Dr. Davis,49,245.00
+234,John White,2025-07-07,Emergency,Routine examination,Dr. Anderson,48,800.00
+235,Susan Jones,2025-05-01,Routine Check-up,Routine examination,Dr. Johnson,107,713.33
+236,Mark Smith,2024-09-30,Emergency,Routine examination,Dr. Moore,40,666.67
+237,Daniel Hernandez,2025-03-24,Routine Check-up,Preventive care visit,Dr. Anderson,67,446.67
+238,John Martinez,2025-01-18,Follow-up,Urgent medical attention needed,Dr. Johnson,94,470.00
+239,Nancy Ramirez,2025-05-15,Consultation,Consultation for symptoms,Dr. Smith,25,208.33
+240,Mark Hernandez,2024-10-30,Routine Check-up,Follow-up appointment,Dr. Johnson,47,313.33
+241,Mark Harris,2024-08-26,Consultation,Medical evaluation,Dr. Brown,108,900.00
+242,Jane Martinez,2024-08-16,Consultation,Preventive care visit,Dr. Williams,34,283.33
+243,Karen Garcia,2024-10-07,Routine Check-up,Routine examination,Dr. Williams,51,340.00
+244,Elizabeth Lewis,2025-06-08,Consultation,Health screening,Dr. Anderson,23,191.67
+245,John Robinson,2025-02-03,Emergency,Annual physical exam,Dr. Anderson,112,1866.67
+246,John Martinez,2025-03-28,Emergency,Follow-up appointment,Dr. Wilson,40,666.67
+247,Elizabeth Perez,2024-08-19,Emergency,Annual physical exam,Dr. Wilson,74,1233.33
+248,Barbara Taylor,2024-08-18,Consultation,Annual physical exam,Dr. Davis,40,333.33
+249,Barbara Davis,2024-08-21,Emergency,Routine examination,,74,1233.33
+250,Emma Lee,2025-05-10,Consultation,Treatment follow-up,Dr. Brown,79,658.33
+251,Jane Anderson,2025-07-25,Routine Check-up,Preventive care visit,Dr. Miller,101,673.33
+252,Michael White,2025-03-26,Routine Check-up,Preventive care visit,Dr. Moore,99,660.00
+253,Emma Clark,2024-09-01,Follow-up,Regular checkup,,50,250.00
+254,Sarah Martin,2025-06-18,Emergency,Preventive care visit,Dr. Williams,93,1550.00
+255,Richard Rodriguez,2025-04-17,Consultation,Preventive care visit,,64,533.33
+256,James Anderson,2024-08-17,Routine Check-up,Annual physical exam,Dr. Brown,104,693.33
+257,Matthew Lee,2025-01-03,Follow-up,Treatment follow-up,Dr. Wilson,53,265.00
+258,Betty Johnson,2024-09-09,Follow-up,Annual physical exam,Dr. Wilson,79,395.00
+259,Joseph Williams,2025-02-17,Consultation,Regular checkup,Dr. Davis,57,475.00
+260,John Clark,2025-02-15,Routine Check-up,Consultation for symptoms,Dr. Davis,47,313.33
+261,Sarah Martinez,2025-02-25,Follow-up,Medical evaluation,Dr. Davis,112,560.00
+262,Susan White,2024-10-03,Follow-up,Regular checkup,Dr. Wilson,60,300.00
+263,William Taylor,2025-07-16,Emergency,Medical evaluation,Dr. Wilson,22,366.67
+264,David Martin,2024-11-09,Routine Check-up,Urgent medical attention needed,,71,473.33
+265,Patricia Taylor,2025-03-15,Routine Check-up,Preventive care visit,Dr. Williams,57,380.00
+266,Lisa Clark,2025-05-17,Consultation,Annual physical exam,Dr. Brown,33,275.00
+267,Charles Martinez,2024-11-27,Emergency,Urgent medical attention needed,,48,800.00
+268,Susan Perez,2024-12-21,Emergency,Urgent medical attention needed,Dr. Williams,37,616.67
+269,Elizabeth Martinez,2025-02-20,Routine Check-up,Routine examination,,28,186.67
+270,Matthew Williams,2024-09-12,Consultation,Consultation for symptoms,Dr. Anderson,100,833.33
+271,John Taylor,2024-08-18,Routine Check-up,Annual physical exam,Dr. Miller,44,293.33
+272,Karen Miller,2025-03-21,Consultation,Consultation for symptoms,Dr. Taylor,32,266.67
+273,Christopher Lewis,2024-11-15,Routine Check-up,Health screening,Dr. Smith,16,106.67
+274,Richard Lopez,2025-01-04,Consultation,Preventive care visit,Dr. Moore,49,408.33
+275,Lisa Miller,2025-06-19,Emergency,Preventive care visit,Dr. Davis,43,716.67
+276,Betty Hernandez,2025-04-06,Routine Check-up,Preventive care visit,,67,446.67
+277,Lisa Williams,2025-03-31,Consultation,Consultation for symptoms,Dr. Anderson,15,125.00
+278,Michael Wilson,2024-10-30,Routine Check-up,Consultation for symptoms,Dr. Brown,20,133.33
+279,James Harris,2025-01-29,Routine Check-up,Medical evaluation,Dr. Williams,58,386.67
+280,Richard Jones,2025-01-08,Emergency,Preventive care visit,Dr. Johnson,93,1550.00
+281,Richard Thompson,2024-11-08,Emergency,Preventive care visit,Dr. Anderson,83,1383.33
+282,Jessica Martinez,2024-11-02,Emergency,Health screening,,73,1216.67
+283,Elizabeth Harris,2024-08-07,Follow-up,Follow-up appointment,Dr. Smith,16,80.00
+284,Matthew Williams,2025-04-09,Routine Check-up,Regular checkup,,102,680.00
+285,Mark Harris,2025-06-25,Routine Check-up,Consultation for symptoms,Dr. Taylor,101,673.33
+286,James Gonzalez,2024-08-03,Follow-up,Urgent medical attention needed,,59,295.00
+287,Susan Moore,2025-05-15,Emergency,Health screening,Dr. Wilson,101,1683.33
+288,John Robinson,2025-07-23,Emergency,Annual physical exam,Dr. Brown,96,1600.00
+289,Matthew Jones,2024-11-24,Routine Check-up,Treatment follow-up,Dr. Johnson,96,640.00
+290,Betty Robinson,2025-03-17,Consultation,Annual physical exam,Dr. Wilson,98,816.67
+291,Matthew Gonzalez,2024-12-16,Emergency,Follow-up appointment,,87,1450.00
+292,Christopher Jones,2025-01-01,Consultation,Treatment follow-up,Dr. Anderson,87,725.00
+293,Susan Jackson,2024-12-04,Emergency,Preventive care visit,Dr. Moore,116,1933.33
+294,Mark Clark,2025-02-07,Emergency,Consultation for symptoms,,114,1900.00
+295,Mark Jackson,2024-12-04,Routine Check-up,Regular checkup,Dr. Smith,116,773.33
+296,Richard Harris,2024-11-19,Emergency,Consultation for symptoms,,59,983.33
+297,Daniel Hernandez,2025-07-13,Follow-up,Medical evaluation,Dr. Taylor,110,550.00
+298,William Moore,2024-08-04,Consultation,Medical evaluation,,67,558.33
+299,James Hernandez,2025-02-04,Follow-up,Follow-up appointment,Dr. Taylor,118,590.00
+300,Nancy Lewis,2024-10-23,Routine Check-up,Consultation for symptoms,,112,746.67
+301,John Gonzalez,2024-12-14,Routine Check-up,Treatment follow-up,Dr. Wilson,28,186.67
+302,William Lopez,2025-07-10,Routine Check-up,Medical evaluation,,18,120.00
+303,Anthony Sanchez,2024-08-22,Follow-up,Follow-up appointment,Dr. Anderson,64,320.00
+304,Sarah Miller,2025-01-09,Consultation,Treatment follow-up,Dr. Moore,56,466.67
+305,Mark Brown,2025-04-25,Routine Check-up,Medical evaluation,Dr. Smith,81,540.00
+306,Michael Robinson,2024-08-15,Consultation,Medical evaluation,Dr. Moore,33,275.00
+307,Jane Davis,2024-11-14,Consultation,Follow-up appointment,,23,191.67
+308,Christopher Taylor,2024-09-23,Consultation,Preventive care visit,Dr. Johnson,25,208.33
+309,Daniel Anderson,2025-06-08,Routine Check-up,Health screening,Dr. Smith,102,680.00
+310,Nancy Jackson,2025-06-15,Follow-up,Treatment follow-up,Dr. Miller,24,120.00
+311,Betty Harris,2024-09-19,Emergency,Routine examination,Dr. Brown,37,616.67
+312,Patricia Sanchez,2025-07-13,Follow-up,Follow-up appointment,,98,490.00
+313,Betty Moore,2025-07-23,Consultation,Health screening,Dr. Anderson,51,425.00
+314,Daniel Smith,2025-01-31,Consultation,Consultation for symptoms,Dr. Smith,65,541.67
+315,John Miller,2025-01-19,Follow-up,Consultation for symptoms,Dr. Johnson,73,365.00
+316,Barbara Lewis,2024-10-15,Emergency,Urgent medical attention needed,Dr. Brown,119,1983.33
+317,Matthew Robinson,2025-05-31,Emergency,Treatment follow-up,Dr. Williams,46,766.67
+318,Michael Brown,2024-10-23,Follow-up,Consultation for symptoms,Dr. Johnson,112,560.00
+319,Anthony Taylor,2024-09-12,Consultation,Urgent medical attention needed,Dr. Smith,46,383.33
+320,James Brown,2024-08-31,Follow-up,Consultation for symptoms,Dr. Williams,35,175.00
+321,Michael Thomas,2025-05-01,Consultation,Routine examination,Dr. Moore,104,866.67
+322,Linda Jones,2024-08-25,Follow-up,Consultation for symptoms,Dr. Moore,32,160.00
+323,Barbara Thompson,2024-08-27,Consultation,Follow-up appointment,,47,391.67
+324,Joseph Brown,2025-07-30,Emergency,Treatment follow-up,Dr. Moore,32,533.33
+325,Emma Perez,2025-01-30,Routine Check-up,Medical evaluation,Dr. Brown,116,773.33
+326,Matthew Wilson,2025-05-21,Follow-up,Consultation for symptoms,Dr. Williams,108,540.00
+327,Linda Ramirez,2024-09-05,Consultation,Treatment follow-up,Dr. Miller,60,500.00
+328,Charles Miller,2025-06-27,Follow-up,Annual physical exam,Dr. Taylor,118,590.00
+329,Elizabeth Clark,2024-08-09,Consultation,Medical evaluation,Dr. Moore,107,891.67
+330,Barbara Harris,2025-02-21,Emergency,Regular checkup,Dr. Johnson,94,1566.67
+331,David Lee,2024-10-08,Consultation,Consultation for symptoms,,71,591.67
+332,Karen Hernandez,2024-09-05,Routine Check-up,Regular checkup,Dr. Johnson,28,186.67
+333,Linda Moore,2025-03-14,Follow-up,Consultation for symptoms,Dr. Anderson,45,225.00
+334,Barbara Davis,2025-07-06,Consultation,Health screening,Dr. Davis,28,233.33
+335,John Jackson,2024-09-02,Consultation,Medical evaluation,Dr. Taylor,104,866.67
+336,Maria Gonzalez,2025-06-05,Follow-up,Annual physical exam,Dr. Miller,42,210.00
+337,Jennifer Lopez,2025-02-20,Emergency,Preventive care visit,Dr. Wilson,79,1316.67
+338,Emma Thomas,2024-09-20,Routine Check-up,Routine examination,,46,306.67
+339,Linda Davis,2024-08-07,Routine Check-up,Follow-up appointment,Dr. Wilson,95,633.33
+340,Maria White,2024-09-04,Follow-up,Treatment follow-up,Dr. Anderson,53,265.00
+341,William Lee,2025-03-28,Follow-up,Preventive care visit,Dr. Johnson,73,365.00
+342,Karen Lewis,2025-06-01,Emergency,Health screening,Dr. Anderson,59,983.33
+343,Matthew Anderson,2024-09-23,Emergency,Preventive care visit,Dr. Smith,36,600.00
+344,Emma Harris,2024-09-30,Routine Check-up,Medical evaluation,Dr. Johnson,85,566.67
+345,Barbara Johnson,2025-03-15,Consultation,Urgent medical attention needed,Dr. Williams,43,358.33
