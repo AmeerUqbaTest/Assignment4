@@ -1,1 +1,1 @@
-https://zqcpktgapcpdhkctuwbx.supabase.co/auth/v1/verify?token=2ee159795291f34d645e582d39144577727c7a748cad85ba34036eaa&type=magiclink&redirect_to=https://chatuml.com/
+https://zqcpktgapcpdhkctuwbx.supabase.co/auth/v1/verify?token=e6dd9574e7c8fa7505eeaddda03c8132268086595ed4657c32787be9&type=signup&redirect_to=https://chatuml.com/
